@@ -73,10 +73,7 @@ export default function Services() {
         <div className="row justify-content-lg-start justify-content-md-center justify-content-center">
           <div className="col col-lg-4 col-md-6 col-11 mb-4">
             <div className="extends rounded-4">
-              <div className="card border-0 ps-4 pe-5 py-4 rounded-4">
-                <div className="icon active">
-                  <i className="bi bi-check-circle-fill"></i>
-                </div>
+              <div className="card border-0 px-4 py-4 rounded-4">
                 <h5 className="fw-bold">Company Profile</h5>
                 <div className="status px-3 py-1 rounded-5 active mt-2">
                   Active
@@ -86,10 +83,7 @@ export default function Services() {
           </div>
           <div className="col col-lg-4 col-md-6 col-11 mb-4">
             <div className="extends rounded-4">
-              <div className="card border-0 ps-4 pe-5 py-4 rounded-4">
-                <div className="icon active">
-                  <i className="bi bi-check-circle-fill"></i>
-                </div>
+              <div className="card border-0 px-4 py-4 rounded-4">
                 <h5 className="fw-bold">Landing Page</h5>
                 <div className="status px-3 py-1 rounded-5 active mt-2">
                   Active
@@ -99,10 +93,7 @@ export default function Services() {
           </div>
           <div className="col col-lg-4 col-md-6 col-11 mb-4">
             <div className="extends rounded-4">
-              <div className="card border-0 ps-4 pe-5 py-4 rounded-4">
-                <div className="icon active">
-                  <i className="bi bi-check-circle-fill"></i>
-                </div>
+              <div className="card border-0 px-4 py-4 rounded-4">
                 <h5 className="fw-bold">UI UX Design</h5>
                 <div className="status px-3 py-1 rounded-5 active mt-2">
                   Active
