@@ -73,7 +73,7 @@ export default function Services() {
         <div className="row justify-content-lg-start justify-content-md-center justify-content-center">
           <div className="col col-lg-4 col-md-6 col-11 mb-4">
             <div className="extends rounded-4">
-              <div className="card ps-4 pe-5 py-4 rounded-4">
+              <div className="card border-0 ps-4 pe-5 py-4 rounded-4">
                 <div className="icon active">
                   <i className="bi bi-check-circle-fill"></i>
                 </div>
@@ -86,7 +86,7 @@ export default function Services() {
           </div>
           <div className="col col-lg-4 col-md-6 col-11 mb-4">
             <div className="extends rounded-4">
-              <div className="card ps-4 pe-5 py-4 rounded-4">
+              <div className="card border-0 ps-4 pe-5 py-4 rounded-4">
                 <div className="icon active">
                   <i className="bi bi-check-circle-fill"></i>
                 </div>
@@ -99,7 +99,7 @@ export default function Services() {
           </div>
           <div className="col col-lg-4 col-md-6 col-11 mb-4">
             <div className="extends rounded-4">
-              <div className="card ps-4 pe-5 py-4 rounded-4">
+              <div className="card border-0 ps-4 pe-5 py-4 rounded-4">
                 <div className="icon active">
                   <i className="bi bi-check-circle-fill"></i>
                 </div>
@@ -112,7 +112,7 @@ export default function Services() {
           </div>
           <div className="col col-lg-4 col-md-6 col-11 mb-4">
             <div className="extends rounded-4">
-              <div className="card ps-4 pe-5 py-4 rounded-4">
+              <div className="card border-0 ps-4 pe-5 py-4 rounded-4">
                 <div className="icon inactive">
                   <i className="bi bi-lock-fill"></i>
                 </div>
@@ -125,7 +125,7 @@ export default function Services() {
           </div>
           <div className="col col-lg-4 col-md-6 col-11 mb-4">
             <div className="extends rounded-4">
-              <div className="card ps-4 pe-5 py-4 rounded-4">
+              <div className="card border-0 ps-4 pe-5 py-4 rounded-4">
                 <div className="icon inactive">
                   <i className="bi bi-lock-fill"></i>
                 </div>
@@ -138,7 +138,7 @@ export default function Services() {
           </div>
           <div className="col col-lg-4 col-md-6 col-11 mb-4">
             <div className="extends rounded-4">
-              <div className="card ps-4 pe-5 py-4 rounded-4">
+              <div className="card border-0 ps-4 pe-5 py-4 rounded-4">
                 <div className="icon inactive">
                   <i className="bi bi-lock-fill"></i>
                 </div>

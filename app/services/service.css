@@ -151,7 +151,7 @@
 }
 
 .servicePage .container .row .col .extends {
-  background: -webkit-linear-gradient(right, #fffd76, #aeb102, #12498a);
+  background: -webkit-linear-gradient(right, #fffec8, #ced100, #12498a);
   background-size: 330% 330%;
   animation: gradientAnimationService 6s ease infinite;
   padding: 2px;
@@ -258,5 +258,40 @@
 
   .servicePage .blogsPage .container .contentBlog .card .title {
     -webkit-line-clamp: unset;
+  }
+
+  .servicePage .container .row .col .card h5 {
+    font-size: 19px;
+    color: #12498a;
+  }
+
+  .servicePage .container .row .col .card h5.inactive {
+    font-size: 19px;
+    color: #12498a;
+  }
+
+  .servicePage .btn-book {
+    background: -webkit-linear-gradient(
+      left,
+      #f4ff76 0%,
+      #c7da01 70%,
+      #aab900 100%
+    );
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    box-shadow: 0px 10px 21px 2px rgba(172, 169, 1, 0.5);
+    font-size: 20px;
+  }
+
+  .servicePage .btn-book:hover {
+    background: -webkit-linear-gradient(
+      left,
+      #f4ff76 0%,
+      #f4ff76 70%,
+      #f4ff76 100%
+    );
+    text-decoration: none;
+    font-weight: 700;
   }
 }
