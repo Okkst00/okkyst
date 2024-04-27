@@ -1,0 +1,31 @@
+.comingSoon .btn-show {
+  background-color: #12498a;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0px 8px 19px 5px rgba(2, 111, 236, 0.2);
+}
+.comingSoon .btn-show:hover {
+  background-color: #1c60b4;
+  color: white;
+  text-decoration: none;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-40px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.comingSoon .images {
+  animation: bounce 3.7s infinite;
+}

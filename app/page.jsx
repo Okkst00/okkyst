@@ -38,6 +38,11 @@ export default function Home() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto py-lg-0 py-md-4 py-4">
               <li className="nav-item ms-3">
+                <Link className="nav-link" href={"/quotes"}>
+                  Quotes
+                </Link>
+              </li>
+              <li className="nav-item ms-3">
                 <Link className="nav-link" href={"/services"}>
                   Service
                 </Link>
