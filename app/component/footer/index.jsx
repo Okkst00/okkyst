@@ -32,9 +32,6 @@ function Footer() {
               <li className="pb-2 list-unstyled">
                 <Link href={"/services"}>Service</Link>
               </li>
-              <li className="pb-2 list-unstyled">
-                <Link href={"/coming-soon"}>Coming Soon</Link>
-              </li>
             </ul>
           </div>
           <div className="col col-lg-2 col-md-2 col-12 tcols">
