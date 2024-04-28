@@ -11,7 +11,7 @@ function Header() {
           <Image
             width={500}
             height={260}
-            src="/images/imgHeader.webp"
+            src="/images/imgHeader-N.webp"
             className=" img-fluid"
             alt="img"
           />
