@@ -30,41 +30,6 @@ body {
   background-attachment: fixed;
 }
 
-.navbar {
-  /* From https://css.glass */
-  background: rgba(1, 5, 24, 0.84);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(11px);
-  -webkit-backdrop-filter: blur(11px);
-  border: 1px solid rgba(1, 5, 24, 0.3);
-}
-
-.navbar ul .nav-link {
-  color: white;
-}
-
-.navbar ul .nav-link:hover {
-  color: rgb(255, 250, 207);
-}
-
-.navbar ul .nav-link.active {
-  color: rgb(254, 255, 193);
-}
-
-.navbar-toggler {
-  background: -webkit-linear-gradient(
-    top,
-    #ffffffc0 0%,
-    #e9f3ffb7 50%,
-    #87bfff 100%
-  );
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
 #about {
   padding-top: 100px;
 }
