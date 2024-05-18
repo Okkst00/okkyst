@@ -43,12 +43,12 @@ function Footer() {
                 <h5>Find</h5>
               </li>
               <li className="pb-2 list-unstyled">
-                <a href="">
+                <a href="/">
                   <i className="bi bi-instagram"></i> _
                 </a>
               </li>
               <li className="pb-2 list-unstyled">
-                <a href="">
+                <a href="/">
                   <i className="bi bi-github"></i> _
                 </a>
               </li>
@@ -58,7 +58,7 @@ function Footer() {
                 </a>
               </li>
               <li className="pb-2 list-unstyled">
-                <a href="">
+                <a href="/">
                   <i className="bi bi-linkedin"></i> _
                 </a>
               </li>
