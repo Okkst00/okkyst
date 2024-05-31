@@ -1,3 +1,7 @@
+![image](https://github.com/Okkst00/okkyst/assets/99626693/53fa76f1-c112-449f-91f6-84179ecf807c)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
