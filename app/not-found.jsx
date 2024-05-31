@@ -20,7 +20,7 @@ export default function NotFound() {
               className=" btn-show text-center px-5 py-3 rounded-5"
               href={"/"}
             >
-              <i className="bi bi-arrow-down-circle-fill"></i> Kembali
+              <i className="bi bi-arrow-down-circle-fill"></i> Go Back
             </Link>
           </div>
         </div>
