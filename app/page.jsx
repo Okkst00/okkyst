@@ -19,6 +19,9 @@ export default function Home() {
               pursuing any dream, because life is not always fair, and I Born in
               a beautiful city in East Java
             </p>
+            <p className=" text-white secTitle">
+              "Front End Bisa, Fullstack Lumayan Bisa"
+            </p>
           </div>
         </div>
       </div>

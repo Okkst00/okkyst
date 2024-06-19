@@ -56,7 +56,7 @@ function Software() {
                 <Image
                   width={200}
                   height={200}
-                  src="/images/vue-icon.webp"
+                  src="/images/expressjs.png"
                   className="img-fluid"
                   alt="img"
                 />
