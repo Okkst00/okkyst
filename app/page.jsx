@@ -20,7 +20,7 @@ export default function Home() {
               a beautiful city in East Java
             </p>
             <p className=" text-white secTitle">
-              "Front End Bisa, Fullstack Lumayan Bisa"
+              Front End Bisa, Fullstack Lumayan Bisa
             </p>
           </div>
         </div>
