@@ -46,8 +46,24 @@ body {
   font-size: 20px;
 }
 
+.bg-main-desktop {
+  display: block;
+}
+
+.bg-main-mobile {
+  display: none;
+}
+
 @media (max-width: 450px) {
   #about {
     padding-top: 70px;
+  }
+
+  .bg-main-desktop {
+    display: none;
+  }
+
+  .bg-main-mobile {
+    display: block;
   }
 }
