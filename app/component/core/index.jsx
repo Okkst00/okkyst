@@ -14,9 +14,9 @@ function Core() {
             pursuing any dream, because life is not always fair, and I Born in a
             beautiful city in East Java
           </p>
-          <p className=" text-white secTitle">
+          {/* <p className=" text-white secTitle">
             Front End Bisa, Fullstack Lumayan Bisa
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
