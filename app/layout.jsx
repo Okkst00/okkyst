@@ -4,6 +4,7 @@ import "./globals.css";
 import ButtonTop from "./utils/btnToTop";
 import Head from "next/head";
 import Script from "next/script";
+import NextTopLoader from "nextjs-toploader";
 
 export const metadata = {
   title: "• Okky Septyanto",
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       </Head>
       <body suppressHydrationWarning={true}>
+        <NextTopLoader color="#b1d5ff" showSpinner={false} />
         {children}
         <ButtonTop />
 
