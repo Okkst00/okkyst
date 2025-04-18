@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import "./software.css";
 import Image from "next/image";
+import TechList from "../techList";
 
 function Software() {
   return (
@@ -17,140 +18,8 @@ function Software() {
               </p>
             </div>
           </div>
-          <div className="row">
-            <div className="col col-lg-2 col-md-2 col-4 p-lg-4 p-md-3 p-3">
-              <div className="imgWrap p-3">
-                <Image
-                  width={200}
-                  height={200}
-                  src="/images/js-icon.webp"
-                  className="img-fluid"
-                  alt="img"
-                />
-              </div>
-            </div>
-            <div className="col col-lg-2 col-md-2 col-4 p-lg-4 p-md-3 p-3">
-              <div className="imgWrap p-3">
-                <Image
-                  width={200}
-                  height={200}
-                  src="/images/react-icon2.webp"
-                  className="img-fluid"
-                  alt="img"
-                />
-              </div>
-            </div>
-            <div className="col col-lg-2 col-md-2 col-4 p-lg-4 p-md-3 p-3">
-              <div className="imgWrap p-3">
-                <Image
-                  width={200}
-                  height={200}
-                  src="/images/next-icon.webp"
-                  className="img-fluid"
-                  alt="img"
-                />
-              </div>
-            </div>
-            <div className="col col-lg-2 col-md-2 col-4 p-lg-4 p-md-3 p-3">
-              <div className="imgWrap p-3">
-                <Image
-                  width={200}
-                  height={200}
-                  src="/images/expressjs.png"
-                  className="img-fluid"
-                  alt="img"
-                />
-              </div>
-            </div>
-            <div className="col col-lg-2 col-md-2 col-4 p-lg-4 p-md-3 p-3">
-              <div className="imgWrap p-3">
-                <Image
-                  width={200}
-                  height={200}
-                  src="/images/bootstrap-icon.webp"
-                  className="img-fluid"
-                  alt="img"
-                />
-              </div>
-            </div>
-            <div className="col col-lg-2 col-md-2 col-4 p-lg-4 p-md-3 p-3">
-              <div className="imgWrap p-3">
-                <Image
-                  width={200}
-                  height={200}
-                  src="/images/tw-icon.webp"
-                  className="img-fluid"
-                  alt="img"
-                />
-              </div>
-            </div>
-            <div className="col col-lg-2 col-md-2 col-4 p-lg-4 p-md-3 p-3">
-              <div className="imgWrap p-3">
-                <Image
-                  width={200}
-                  height={200}
-                  src="/images/php-icon.webp"
-                  className="img-fluid"
-                  alt="img"
-                />
-              </div>
-            </div>
-            <div className="col col-lg-2 col-md-2 col-4 p-lg-4 p-md-3 p-3">
-              <div className="imgWrap p-3">
-                <Image
-                  width={200}
-                  height={200}
-                  src="/images/laravel-icon2.webp"
-                  className="img-fluid"
-                  alt="img"
-                />
-              </div>
-            </div>
-            <div className="col col-lg-2 col-md-2 col-4 p-lg-4 p-md-3 p-3">
-              <div className="imgWrap p-3">
-                <Image
-                  width={200}
-                  height={200}
-                  src="/images/mysql-icon.webp"
-                  className="img-fluid"
-                  alt="img"
-                />
-              </div>
-            </div>
-            <div className="col col-lg-2 col-md-2 col-4 p-lg-4 p-md-3 p-3">
-              <div className="imgWrap p-3">
-                <Image
-                  width={200}
-                  height={200}
-                  src="/images/git-icon.webp"
-                  className="img-fluid"
-                  alt="img"
-                />
-              </div>
-            </div>
-            <div className="col col-lg-2 col-md-2 col-4 p-lg-4 p-md-3 p-3">
-              <div className="imgWrap p-3">
-                <Image
-                  width={200}
-                  height={200}
-                  src="/images/github-icon.webp"
-                  className="img-fluid"
-                  alt="img"
-                />
-              </div>
-            </div>
-            <div className="col col-lg-2 col-md-2 col-4 p-lg-4 p-md-3 p-3">
-              <div className="imgWrap p-3">
-                <Image
-                  width={200}
-                  height={200}
-                  src="/images/figma-icon2.webp"
-                  className="img-fluid"
-                  alt="img"
-                />
-              </div>
-            </div>
-          </div>
+
+          <TechList />
         </div>
       </div>
     </div>

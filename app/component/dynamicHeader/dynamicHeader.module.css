@@ -1,0 +1,183 @@
+/* Shimmer Keyframes */
+@keyframes preloadTech {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+/* Shimmer Effect */
+.preloadTech {
+  display: inline-block;
+  height: 360px;
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 75px;
+  background: #304772;
+  background-image: linear-gradient(
+    to right,
+    #304772 0%,
+    #172d55 20%,
+    #041d47 40%,
+    #26447e 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  animation: preloadTech 1.5s infinite linear;
+}
+/* Shimmer Keyframes */
+@keyframes preloadTech2 {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+/* Shimmer Effect */
+.preloadTech2 {
+  display: inline-block;
+  height: 30px;
+  width: 30%;
+  aspect-ratio: 1/1;
+  margin-bottom: 16px;
+  background: #304772;
+  background-image: linear-gradient(
+    to right,
+    #304772 0%,
+    #172d55 20%,
+    #041d47 40%,
+    #26447e 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  animation: preloadTech2 1.5s infinite linear;
+}
+/* Shimmer Keyframes */
+@keyframes preloadTech3 {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+/* Shimmer Effect */
+.preloadTech3 {
+  display: inline-block;
+  height: 40px;
+  width: 80%;
+  aspect-ratio: 1/1;
+  margin-bottom: 8px;
+  background: #304772;
+  background-image: linear-gradient(
+    to right,
+    #304772 0%,
+    #172d55 20%,
+    #041d47 40%,
+    #26447e 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  animation: preloadTech3 1.5s infinite linear;
+}
+/* Shimmer Keyframes */
+@keyframes preloadTech4 {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+/* Shimmer Effect */
+.preloadTech4 {
+  display: inline-block;
+  height: 28px;
+  width: 65%;
+  aspect-ratio: 1/1;
+  margin-bottom: 14px;
+  background: #304772;
+  background-image: linear-gradient(
+    to right,
+    #304772 0%,
+    #172d55 20%,
+    #041d47 40%,
+    #26447e 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  animation: preloadTech4 1.5s infinite linear;
+}
+/* Shimmer Keyframes */
+@keyframes preloadTech5 {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+/* Shimmer Effect */
+.preloadTech5 {
+  display: inline-block;
+  height: 40px;
+  width: 40%;
+  aspect-ratio: 1/1;
+  background: #304772;
+  background-image: linear-gradient(
+    to right,
+    #304772 0%,
+    #172d55 20%,
+    #041d47 40%,
+    #26447e 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  animation: preloadTech5 1.5s infinite linear;
+}
+
+.togg {
+  color: white;
+  background-color: #d6e9ff;
+  padding: 3px;
+  box-shadow: 0px 5px 17px -6px rgb(107, 196, 255);
+  border-radius: 20px;
+  top: 36px;
+  right: 18px;
+  position: absolute;
+  width: fit-content;
+  gap: 5px;
+}
+
+.toggIconReact,
+.toggIconVue {
+  background-color: #002472;
+  padding: 2px;
+  border-radius: 50%;
+  border: 2px solid rgb(202, 165, 0);
+  box-shadow: 0px 5px 17px -6px rgb(107, 196, 255);
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.toggIconReact {
+  aspect-ratio: 1/1;
+}
+
+.toggIconVue {
+  aspect-ratio: 1/1;
+  filter: grayscale(1);
+  box-shadow: none;
+}
+
+.toggIconVue:hover {
+  filter: grayscale(0);
+  box-shadow: 0px 5px 17px -6px rgb(107, 196, 255);
+}

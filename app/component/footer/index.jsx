@@ -9,25 +9,27 @@ function Footer() {
       <div className="container">
         <div className="row justify-content-lg-center justify-content-lg-start justify-content-center">
           <div className="col col-lg-5 col-md-5 col-12 fcols pt-5 text-center text-lg-start text-md-start">
-            <Image
-              width={200}
-              height={70}
-              className="pt-3"
-              src="/images/mainIcon.png"
-              style={{ width: "12rem" }}
-              alt="img"
-            />
+            <Link href={"/"}>
+              <Image
+                width={200}
+                height={70}
+                className="pt-3"
+                src="/images/mainIcon.png"
+                style={{ width: "12rem" }}
+                alt="img"
+              />
+            </Link>
           </div>
-          <div className="col col-lg-2 col-md-2 col-12 scols mt-lg-0 mt-md-4 mt-5">
+          <div className="col col-lg-2 col-md-2 col-12 scols mt-lg-0 mt-md-0 mt-5">
             <ul>
               <li className="pb-2 list-unstyled">
                 <h5>Pages</h5>
               </li>
               <li className="pb-2 list-unstyled">
-                <Link href={"/"}>Home</Link>
+                <Link href={"/portfolio"}>Portfolio</Link>
               </li>
               <li className="pb-2 list-unstyled">
-                <Link href={"/portfolio"}>Portfolio</Link>
+                <Link href={"/gallery"}>Gallery</Link>
               </li>
               <li className="pb-2 list-unstyled">
                 <Link href={"/services"}>Service</Link>

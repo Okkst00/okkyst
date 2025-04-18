@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "image": "/images/js-icon.webp",
+    "name": "-"
+  },
+  {
+    "id": 2,
+    "image": "/images/react-icon2.webp",
+    "name": "-"
+  },
+  {
+    "id": 3,
+    "image": "/images/next-icon.webp",
+    "name": "-"
+  },
+  {
+    "id": 4,
+    "image": "/images/expressjs.png",
+    "name": "-"
+  },
+  {
+    "id": 5,
+    "image": "/images/bootstrap-icon.webp",
+    "name": "-"
+  },
+  {
+    "id": 6,
+    "image": "/images/tw-icon.webp",
+    "name": "-"
+  },
+  {
+    "id": 7,
+    "image": "/images/php-icon.webp",
+    "name": "-"
+  },
+  {
+    "id": 8,
+    "image": "/images/laravel-icon2.webp",
+    "name": "-"
+  },
+  {
+    "id": 9,
+    "image": "/images/mysql-icon.webp",
+    "name": "-"
+  },
+  {
+    "id": 10,
+    "image": "/images/git-icon.webp",
+    "name": "-"
+  },
+  {
+    "id": 11,
+    "image": "/images/github-icon.webp",
+    "name": "-"
+  },
+  {
+    "id": 12,
+    "image": "/images/figma-icon2.webp",
+    "name": "-"
+  },
+  {
+    "id": 13,
+    "image": "/images/vue-icon.webp",
+    "name": "-"
+  },
+  {
+    "id": 14,
+    "image": "/images/gitlab-icon.png",
+    "name": "-"
+  }
+]

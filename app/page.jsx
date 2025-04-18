@@ -7,12 +7,13 @@ import Navbar from "./component/navbar";
 import MainBg from "./component/mainBg";
 import MainBgMobile from "./component/mainBgMobile";
 import Core from "./component/core";
+import DynamicHeader from "./component/dynamicHeader";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <Header />
+      <DynamicHeader />
       <Core />
       <MainBg />
       <MainBgMobile />

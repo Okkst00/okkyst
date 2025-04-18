@@ -5,7 +5,7 @@ import Image from "next/image";
 import Navbar from "../component/navbar";
 
 export const metadata = {
-  title: "• Service - Okky Septyanto",
+  title: "• Service",
   description: "Portfolio Okky Septyanto",
 };
 

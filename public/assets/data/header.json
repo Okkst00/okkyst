@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "image": "/images/imgHeader-N.webp",
+    "city": "Kota Malang, Indonesia",
+    "name": "Okky Septyanto",
+    "technology": [
+      {
+        "id": 1,
+        "image": "bi bi-github",
+        "name": "-",
+        "link": "https://behance.net/okkst"
+      },
+      {
+        "id": 2,
+        "image": "bi bi-instagram",
+        "name": "-",
+        "link": "https://behance.net/okkst"
+      },
+      {
+        "id": 3,
+        "image": "bi bi-behance",
+        "name": "-",
+        "link": "https://behance.net/okkst"
+      },
+      {
+        "id": 4,
+        "image": "bi bi-envelope-check-fill",
+        "name": "-",
+        "link": "https://behance.net/okkst"
+      },
+      {
+        "id": 5,
+        "image": "bi bi-linkedin",
+        "name": "-",
+        "link": "https://behance.net/okkst"
+      }
+    ],
+    "role": "Web Developer & UI UX Designer"
+  }
+]

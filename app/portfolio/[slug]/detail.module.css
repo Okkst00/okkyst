@@ -1,0 +1,313 @@
+@keyframes preload {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+.preload {
+  display: inline-block;
+  /* height: 360px; */
+  width: 100%;
+  aspect-ratio: 16/7;
+  border-radius: 75px;
+  background: #304772;
+  background-image: linear-gradient(
+    to right,
+    #304772 0%,
+    #172d55 20%,
+    #041d47 40%,
+    #26447e 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  animation: preload 1.5s infinite linear;
+}
+
+@keyframes preload2 {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+.preload2 {
+  display: inline-block;
+  height: 50px;
+  width: 100%;
+  /* aspect-ratio: 16/7; */
+  border-radius: 75px;
+  background: #304772;
+  background-image: linear-gradient(
+    to right,
+    #304772 0%,
+    #172d55 20%,
+    #041d47 40%,
+    #26447e 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  animation: preload2 1.5s infinite linear;
+}
+
+@keyframes preload3 {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+.preload3 {
+  display: inline-block;
+  height: 50px;
+  width: 80%;
+  /* aspect-ratio: 16/7; */
+  border-radius: 75px;
+  background: #304772;
+  background-image: linear-gradient(
+    to right,
+    #304772 0%,
+    #172d55 20%,
+    #041d47 40%,
+    #26447e 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  animation: preload3 1.5s infinite linear;
+}
+
+.containerFluid {
+  overflow: hidden;
+  height: 100%;
+  aspect-ratio: 16/8;
+  position: relative;
+}
+
+.btnBack {
+  background-color: #e5fa00;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 5px 24px;
+  font-size: 18px;
+  border-radius: 12px;
+}
+
+.btnBack:hover {
+  background-color: #f0ff46;
+}
+
+.container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  background-position: center;
+  filter: blur(140px);
+  z-index: 0;
+  height: 100%;
+}
+
+.mainImg {
+  margin: 50px 0px;
+  aspect-ratio: 16/8;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: 1;
+  border-radius: 6px;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  color: rgb(233, 233, 233);
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.desc {
+  font-size: 18px;
+}
+
+.development {
+  font-size: 17px;
+  color: #ddad01;
+  background-color: #fff9e2;
+  width: fit-content;
+}
+
+.live {
+  font-size: 17px;
+  color: #08b13a;
+  background-color: #95ffc5;
+  width: fit-content;
+}
+
+.end {
+  font-size: 17px;
+  color: #b10808;
+  background-color: #ff9595;
+  width: fit-content;
+}
+
+.labels {
+  background-color: #b1d5ff;
+  color: #12498a;
+  font-size: 17px;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.type {
+  background: -webkit-linear-gradient(
+    left,
+    #000000 0%,
+    #000000 40%,
+    #074183 100%
+  );
+  width: fit-content;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 2px 10px;
+  margin-bottom: 26px;
+}
+
+.wrapTech {
+  gap: 10px;
+}
+
+.tech {
+  width: 5%;
+  margin: 0px;
+  padding: 0px;
+  background: -webkit-linear-gradient(
+    top,
+    #ffffff 0%,
+    #e9f3ff 40%,
+    #cee5ff 100%
+  );
+  padding: 10px;
+  border-radius: 18px;
+}
+
+.techIcon {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+}
+
+.btnPrev {
+  position: fixed;
+  z-index: 9999;
+  top: 10px;
+  border-radius: 20px;
+  padding: 8px 36px;
+  background-color: #e5fa00;
+  font-size: 17px;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0;
+}
+
+.btnPrev:hover {
+  background-color: #f0ff46;
+}
+
+.slideDown {
+  animation: slideDownAnimate 0.6s ease forwards;
+}
+
+@keyframes slideDownAnimate {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 2400px) {
+  .containerFluid {
+    overflow: hidden;
+    height: 100%;
+    aspect-ratio: 16/5;
+    position: relative;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2399px) {
+  .containerFluid {
+    overflow: hidden;
+    height: 100%;
+    aspect-ratio: 16/6;
+    position: relative;
+  }
+}
+
+@media (max-width: 880px) {
+  .containerFluid {
+    overflow: hidden;
+    height: 100%;
+    aspect-ratio: 16/9;
+    position: relative;
+  }
+
+  .title {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .tech {
+    width: 9%;
+  }
+
+  .name {
+    font-size: 32px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 500px) {
+  .containerFluid {
+    overflow: hidden;
+    height: 100%;
+    aspect-ratio: 16/10;
+    position: relative;
+  }
+
+  .title {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .tech {
+    width: 15%;
+  }
+
+  .name {
+    font-size: 30px;
+    font-weight: 600;
+  }
+}

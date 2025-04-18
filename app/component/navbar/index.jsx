@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg fixed-top">
       <div className="container">
-        <a className="navbar-brand fw-bold" href="/">
+        <Link className="navbar-brand fw-bold" href="/">
           <Image
             width={200}
             height={60}
@@ -24,7 +24,7 @@ function Navbar() {
             className="img-fluid"
             style={{ width: "6em" }}
           />
-        </a>
+        </Link>
         <button
           className="navbar-toggler py-2"
           type="button"

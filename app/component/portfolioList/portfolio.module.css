@@ -1,0 +1,81 @@
+/* Shimmer Keyframes */
+@keyframes preloadCart {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+/* Shimmer Effect */
+.preloadCart {
+  display: inline-block;
+  height: 230px;
+  width: 100%;
+  background: #304772;
+  background-image: linear-gradient(
+    to right,
+    #304772 0%,
+    #172d55 20%,
+    #041d47 40%,
+    #26447e 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  animation: preloadCart 1.5s infinite linear;
+}
+/* Shimmer Keyframes */
+@keyframes preloadCart2 {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+/* Shimmer Effect */
+.preloadCart2 {
+  display: inline-block;
+  height: 30px;
+  width: 100%;
+  background: #304772;
+  background-image: linear-gradient(
+    to right,
+    #304772 0%,
+    #172d55 20%,
+    #041d47 40%,
+    #26447e 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  animation: preloadCart2 1.5s infinite linear;
+}
+/* Shimmer Keyframes */
+@keyframes preloadCart3 {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+/* Shimmer Effect */
+.preloadCart3 {
+  display: inline-block;
+  height: 40px;
+  width: 100%;
+  background: #304772;
+  background-image: linear-gradient(
+    to right,
+    #304772 0%,
+    #172d55 20%,
+    #041d47 40%,
+    #26447e 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  animation: preloadCart3 1.5s infinite linear;
+}

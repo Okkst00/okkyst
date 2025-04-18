@@ -22,8 +22,8 @@ function Header() {
           </p>
           <h1 className=" name">Okky Septyanto</h1>
           <p className=" skills mt-2">
-            <i className="bi bi-check-circle-fill"></i> Front End Developer & UI
-            UX Designer
+            <i className="bi bi-check-circle-fill"></i> Web Developer & UI UX
+            Designer
           </p>
           <div className="row justify-content-lg-start justify-content-md-start justify-content-center connect pt-3 mx-0">
             <div className="col text-center col-lg-1 col-md-2 col-2 p-0">

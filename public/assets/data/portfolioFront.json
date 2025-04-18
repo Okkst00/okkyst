@@ -1,0 +1,65 @@
+[
+  {
+    "id": 7,
+    "slug": "gallery-7",
+    "image": "/images/portImg2.webp",
+    "type": "Self Project",
+    "category": "Front End",
+    "name": "Front End landing Page",
+    "technology": [
+      {
+        "id": 1,
+        "image": "/images/react-icon2.webp",
+        "name": "React"
+      },
+      {
+        "id": 2,
+        "image": "/images/bootstrap-icon.webp",
+        "name": "Bootstrap"
+      }
+    ],
+    "env": "Development"
+  },
+  {
+    "id": 8,
+    "slug": "gallery-8",
+    "image": "/images/portImg4.webp",
+    "type": "Self Project",
+    "category": "Website",
+    "name": "Website Portfolio",
+    "technology": [
+      {
+        "id": 1,
+        "image": "/images/next-icon.webp",
+        "name": "Nextjs"
+      },
+      {
+        "id": 2,
+        "image": "/images/bootstrap-icon.webp",
+        "name": "Node.js"
+      }
+    ],
+    "env": "Live"
+  },
+  {
+    "id": 9,
+    "slug": "gallery-9",
+    "image": "/images/portImg1.webp",
+    "type": "Self Project",
+    "category": "Front End",
+    "name": "Front End landing Page",
+    "technology": [
+      {
+        "id": 1,
+        "image": "/images/next-icon.webp",
+        "name": "Nextjs"
+      },
+      {
+        "id": 2,
+        "image": "/images/bootstrap-icon.webp",
+        "name": "Bootstrap"
+      }
+    ],
+    "env": "Development"
+  }
+]
