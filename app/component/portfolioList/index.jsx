@@ -31,23 +31,23 @@ const PortfolioList = () => {
     fetchPortfolio();
   }, []);
 
-  const renderPreloadCart = () => {
+  const renderPreload = () => {
     return (
       <div className="container">
         <div className="row">
-          <div className="col col-lg-4 col-md-4 col-6 mb-lg-0 mb-md-3 mb-4">
+          <div className="col col-lg-4 col-md-6 col-12 mb-lg-0 mb-md-3 mb-4">
             <div className={`rounded-4 ${styles.preloadCart}`}></div>
             <div className={`rounded-3 mt-3 ${styles.preloadCart2}`}></div>
             <div className={`rounded-3 mt-1 ${styles.preloadCart3}`}></div>
             <div className={`rounded-3 mt-1 ${styles.preloadCart3}`}></div>
           </div>
-          <div className="col col-lg-4 col-md-4 col-6 mb-lg-0 mb-md-3 mb-4">
+          <div className="col col-lg-4 col-md-6 col-12 mb-lg-0 mb-md-3 mb-4">
             <div className={`rounded-4 ${styles.preloadCart}`}></div>
             <div className={`rounded-3 mt-3 ${styles.preloadCart2}`}></div>
             <div className={`rounded-3 mt-1 ${styles.preloadCart3}`}></div>
             <div className={`rounded-3 mt-1 ${styles.preloadCart3}`}></div>
           </div>
-          <div className="col col-lg-4 col-md-4 col-6 mb-lg-0 mb-md-3 mb-4">
+          <div className="col col-lg-4 col-md-6 col-12 mb-lg-0 mb-md-3 mb-4">
             <div className={`rounded-4 ${styles.preloadCart}`}></div>
             <div className={`rounded-3 mt-3 ${styles.preloadCart2}`}></div>
             <div className={`rounded-3 mt-1 ${styles.preloadCart3}`}></div>
@@ -62,7 +62,7 @@ const PortfolioList = () => {
     <div>
       <div className="row contentBlog justify-content-center justify-content-lg-start justify-content-md-center">
         {loading ? (
-          renderPreloadCart()
+          renderPreload()
         ) : error ? (
           <div className=" text-center fw-semibold">{error}</div>
         ) : portfolioItems.length === 0 ? (
