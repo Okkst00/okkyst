@@ -307,7 +307,16 @@
   }
 
   .name {
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 600;
+  }
+
+  .labels,
+  .type,
+  .live,
+  .end,
+  .development {
+    font-size: 15px;
+    font-weight: 500;
   }
 }
