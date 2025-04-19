@@ -7,6 +7,7 @@ import Footer from "../../component/footer";
 import Image from "next/image";
 import styles from "./detail.module.css";
 import Link from "next/link";
+import BackButton from "../../utils/backBtn";
 
 export default function DetailPage() {
   const { slug } = useParams();
@@ -66,16 +67,6 @@ export default function DetailPage() {
     }
   }, [item]);
 
-  const [show, setShow] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShow(true);
-    }, 1000);
-
-    return () => clearTimeout(timer);
-  }, []);
-
   const renderPreload = () => {
     return (
       <div className="container mt-5 pt-5">
@@ -93,14 +84,7 @@ export default function DetailPage() {
   return (
     <>
       <Navbar />
-      <div className="container">
-        <Link
-          href={"/portfolio"}
-          className={` ${styles.btnPrev} ${show ? styles.slideDown : ""}`}
-        >
-          <i className="bi bi-arrow-left-circle-fill"></i> Back
-        </Link>
-      </div>
+      <BackButton href="/portfolio" />
       {loading ? (
         renderPreload()
       ) : error ? (

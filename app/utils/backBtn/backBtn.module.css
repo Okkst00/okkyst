@@ -1,0 +1,32 @@
+.btnPrev {
+  position: fixed;
+  z-index: 9999;
+  top: 10px;
+  border-radius: 20px;
+  padding: 8px 36px;
+  background-color: #e5fa00;
+  font-size: 17px;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0;
+}
+
+.btnPrev:hover {
+  background-color: #f0ff46;
+}
+
+.slideDown {
+  animation: slideDownAnimate 0.6s ease forwards;
+}
+
+@keyframes slideDownAnimate {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

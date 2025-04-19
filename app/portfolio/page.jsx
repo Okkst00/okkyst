@@ -4,6 +4,7 @@ import Footer from "../component/footer";
 import Image from "next/image";
 import Navbar from "../component/navbar";
 import PortfolioList from "../component/portfolioList";
+import BackButton from "../utils/backBtn";
 
 export const metadata = {
   title: "• Portfollio",
@@ -14,19 +15,8 @@ export default function Portfolio() {
   return (
     <div className="mt-5 pt-5 portfolioPage s">
       <Navbar />
-      <div className="container">
-        <div className="row mt-4">
-          <div className="col">
-            <Link
-              className=" btn-show text-center px-5 py-3 rounded-5"
-              href={"/"}
-            >
-              <i className="bi bi-arrow-left-circle-fill"></i> Back
-            </Link>
-          </div>
-        </div>
-      </div>
-      <div className="blogsPage mt-5 pt-3">
+      <BackButton href="/" />
+      <div className="blogsPage mt-3 pt-3">
         <div className="container">
           <div className="row justify-content-center mb-3 mainTitle">
             <div className="col col-lg-12 col-md-12 col-11">
