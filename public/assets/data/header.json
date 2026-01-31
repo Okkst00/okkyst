@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/images/imgHeader-N.webp",
+    "image": "/images/hero-img.png",
     "city": "Kota Malang, Indonesia",
     "name": "Okky Septyanto",
     "technology": [
@@ -36,6 +36,6 @@
         "link": "https://behance.net/okkst"
       }
     ],
-    "role": "Web Developer & UI UX Designer"
+    "role": "Full Stack Developer & UI UX Designer"
   }
 ]

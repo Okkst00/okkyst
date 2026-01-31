@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/images/js-icon.webp",
+    "image": "/images/go-icon.png",
     "name": "-"
   },
   {
@@ -21,7 +21,7 @@
   },
   {
     "id": 5,
-    "image": "/images/bootstrap-icon.webp",
+    "image": "/images/docker-icon.png",
     "name": "-"
   },
   {
@@ -67,6 +67,26 @@
   {
     "id": 14,
     "image": "/images/gitlab-icon.png",
+    "name": "-"
+  },
+  {
+    "id": 15,
+    "image": "/images/ts-icon.png",
+    "name": "-"
+  },
+  {
+    "id": 16,
+    "image": "/images/js-icon.webp",
+    "name": "-"
+  },
+  {
+    "id": 17,
+     "image": "/images/bootstrap-icon.webp",
+    "name": "-"
+  },
+  {
+    "id": 18,
+     "image": "/images/vercel-icon.png",
     "name": "-"
   }
 ]

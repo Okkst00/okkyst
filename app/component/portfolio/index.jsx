@@ -111,8 +111,8 @@ function Portfolio() {
                             key={item.technology.id}
                           >
                             <Image
-                              width={120}
-                              height={120}
+                              width={114}
+                              height={114}
                               src={tech.image}
                               alt={tech.name}
                               className=" img-fluid p-1 rounded-4"

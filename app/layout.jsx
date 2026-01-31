@@ -8,7 +8,7 @@ import NextTopLoader from "nextjs-toploader";
 
 export const metadata = {
   title: "• Okky Septyanto",
-  description: "Front End Developer & UI UX Designer",
+  description: "Full Stack Developer & UI UX Designer",
 };
 
 export default function RootLayout({ children }) {

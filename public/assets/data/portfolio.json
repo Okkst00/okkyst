@@ -167,5 +167,180 @@
       }
     ],
     "env": "Development"
+  },
+  {
+    "id": 10,
+    "slug": "gallery-10",
+    "image": "/images/port-img5.png",
+    "type": "Project",
+    "category": "Full Stack",
+    "name": "Website Paretto Product Sales Offline Store",
+   "technology": [
+      {
+        "id": 1,
+        "image": "/images/expressjs.png",
+        "name": "Express"
+      },
+      {
+        "id": 2,
+        "image": "/images/next-icon.webp",
+        "name": "Next"
+      },
+      {
+        "id": 3,
+        "image": "/images/bootstrap-icon.webp",
+        "name": "Tailwind"
+      },
+      {
+        "id": 4,
+        "image": "/images/mysql-icon.webp",
+        "name": "MySQL"
+      },
+      {
+        "id": 5,
+        "image": "/images/docker-icon.png",
+        "name": "Docker"
+      },
+      {
+        "id": 6,
+        "image": "/images/vercel-icon.png",
+        "name": "Vercel"
+      }
+    ],
+    "env": "Live"
+  },
+  {
+    "id": 11,
+    "slug": "gallery-11",
+    "image": "/images/port-img9.png",
+    "type": "Project",
+    "category": "Full Stack",
+    "name": "Quiz Web App",
+    "technology": [
+      {
+        "id": 1,
+        "image": "/images/laravel-icon2.webp",
+        "name": "Express"
+      },
+      {
+        "id": 2,
+        "image": "/images/bootstrap-icon.webp",
+        "name": "Tailwind"
+      },
+      {
+        "id": 3,
+        "image": "/images/mysql-icon.webp",
+        "name": "MySQL"
+      },
+      {
+        "id": 4,
+        "image": "/images/docker-icon.png",
+        "name": "Docker"
+      }
+    ],
+    "env": "Live"
+  },
+  {
+    "id": 12,
+    "slug": "gallery-12",
+    "image": "/images/port-img8.png",
+    "type": "Project",
+    "category": "Full Stack",
+    "name": "E-Commerce Website Unitag Store",
+    "technology": [
+      {
+        "id": 1,
+        "image": "/images/wp-icon.png",
+        "name": "WP"
+      },
+      {
+        "id": 2,
+        "image": "/images/woo-icon.png",
+        "name": "WOO"
+      }
+    ],
+    "env": "Live"
+  },
+  {
+    "id": 13,
+    "slug": "gallery-13",
+    "image": "/images/port-img7.png",
+    "type": "Project",
+    "category": "Full Stack",
+    "name": "Dashboard Internal",
+    "technology": [
+      {
+        "id": 1,
+        "image": "/images/expressjs.png",
+        "name": "Express"
+      },
+      {
+        "id": 2,
+        "image": "/images/next-icon.webp",
+        "name": "Next"
+      },
+      {
+        "id": 3,
+        "image": "/images/tw-icon.webp",
+        "name": "Tailwind"
+      },
+      {
+        "id": 4,
+        "image": "/images/mysql-icon.webp",
+        "name": "MySQL"
+      },
+      {
+        "id": 5,
+        "image": "/images/docker-icon.png",
+        "name": "Docker"
+      },
+      {
+        "id": 6,
+        "image": "/images/vercel-icon.png",
+        "name": "Vercel"
+      }
+    ],
+    "env": "Live"
+  },
+  {
+    "id": 14,
+    "slug": "gallery-14",
+    "image": "/images/port-img6.png",
+    "type": "Project",
+    "category": "Full Stack",
+    "name": "Dashboard Integrasi Jubelio Accurate",
+     "technology": [
+      {
+        "id": 1,
+        "image": "/images/go-icon.png",
+        "name": "Go"
+      },
+      {
+        "id": 2,
+        "image": "/images/next-icon.webp",
+        "name": "Next"
+      },
+      {
+        "id": 3,
+        "image": "/images/tw-icon.webp",
+        "name": "Tailwind"
+      },
+      {
+        "id": 4,
+        "image": "/images/mysql-icon.webp",
+        "name": "MySQL"
+      },
+      {
+        "id": 5,
+        "image": "/images/docker-icon.png",
+        "name": "Docker"
+      },
+      {
+        "id": 6,
+        "image": "/images/vercel-icon.png",
+        "name": "Vercel"
+      }
+    ],
+    "env": "Live"
   }
 ]

@@ -12,7 +12,7 @@ function MainBg() {
       <div className="row mb-5">
         <Image
           className="img-fluid images"
-          src={"/images/bgOne.png"}
+          src={"/images/core-img.png"}
           width={1920}
           height={470}
           alt="images"

@@ -1,65 +1,105 @@
 [
   {
-    "id": 7,
-    "slug": "gallery-7",
-    "image": "/images/portImg2.webp",
-    "type": "Self Project",
-    "category": "Front End",
-    "name": "Front End landing Page",
+    "id": 12,
+    "slug": "gallery-12",
+    "image": "/images/port-img8.png",
+    "type": "Project",
+    "category": "Full Stack",
+    "name": "E-Commerce Website Unitag Store",
     "technology": [
       {
         "id": 1,
-        "image": "/images/react-icon2.webp",
-        "name": "React"
+        "image": "/images/wp-icon.png",
+        "name": "WP"
       },
       {
         "id": 2,
-        "image": "/images/bootstrap-icon.webp",
-        "name": "Bootstrap"
-      }
-    ],
-    "env": "Development"
-  },
-  {
-    "id": 8,
-    "slug": "gallery-8",
-    "image": "/images/portImg4.webp",
-    "type": "Self Project",
-    "category": "Website",
-    "name": "Website Portfolio",
-    "technology": [
-      {
-        "id": 1,
-        "image": "/images/next-icon.webp",
-        "name": "Nextjs"
-      },
-      {
-        "id": 2,
-        "image": "/images/bootstrap-icon.webp",
-        "name": "Node.js"
+        "image": "/images/woo-icon.png",
+        "name": "WOO"
       }
     ],
     "env": "Live"
   },
   {
-    "id": 9,
-    "slug": "gallery-9",
-    "image": "/images/portImg1.webp",
-    "type": "Self Project",
-    "category": "Front End",
-    "name": "Front End landing Page",
+    "id": 13,
+    "slug": "gallery-13",
+    "image": "/images/port-img7.png",
+    "type": "Project",
+    "category": "Full Stack",
+    "name": "Dashboard Internal",
     "technology": [
       {
         "id": 1,
-        "image": "/images/next-icon.webp",
-        "name": "Nextjs"
+        "image": "/images/expressjs.png",
+        "name": "Express"
       },
       {
         "id": 2,
-        "image": "/images/bootstrap-icon.webp",
-        "name": "Bootstrap"
+        "image": "/images/next-icon.webp",
+        "name": "Next"
+      },
+      {
+        "id": 3,
+        "image": "/images/tw-icon.webp",
+        "name": "Tailwind"
+      },
+      {
+        "id": 4,
+        "image": "/images/mysql-icon.webp",
+        "name": "MySQL"
+      },
+      {
+        "id": 5,
+        "image": "/images/docker-icon.png",
+        "name": "Docker"
+      },
+      {
+        "id": 6,
+        "image": "/images/vercel-icon.png",
+        "name": "Vercel"
       }
     ],
-    "env": "Development"
+    "env": "Live"
+  },
+  {
+    "id": 14,
+    "slug": "gallery-14",
+    "image": "/images/port-img6.png",
+    "type": "Project",
+    "category": "Full Stack",
+    "name": "Dashboard Integrasi Jubelio Accurate",
+     "technology": [
+      {
+        "id": 1,
+        "image": "/images/go-icon.png",
+        "name": "Go"
+      },
+      {
+        "id": 2,
+        "image": "/images/next-icon.webp",
+        "name": "Next"
+      },
+      {
+        "id": 3,
+        "image": "/images/tw-icon.webp",
+        "name": "Tailwind"
+      },
+      {
+        "id": 4,
+        "image": "/images/mysql-icon.webp",
+        "name": "MySQL"
+      },
+      {
+        "id": 5,
+        "image": "/images/docker-icon.png",
+        "name": "Docker"
+      },
+      {
+        "id": 6,
+        "image": "/images/vercel-icon.png",
+        "name": "Vercel"
+      }
+    ],
+    "env": "Live"
   }
 ]

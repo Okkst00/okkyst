@@ -12,7 +12,7 @@ function MainBgMobile() {
       <div className="row mb-5">
         <Image
           className="img-fluid images"
-          src={"/images/bgOneMobile.png"}
+          src={"/images/core-img-m.png"}
           width={1920}
           height={260}
           alt="images"
