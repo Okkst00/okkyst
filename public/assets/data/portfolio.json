@@ -171,7 +171,7 @@
   {
     "id": 10,
     "slug": "gallery-10",
-    "image": "/images/port-img5.png",
+    "image": "/images/port-img17.png",
     "type": "Project",
     "category": "Full Stack",
     "name": "Website Paretto Product Sales Offline Store",
@@ -212,7 +212,7 @@
   {
     "id": 11,
     "slug": "gallery-11",
-    "image": "/images/port-img9.png",
+    "image": "/images/port-img13.png",
     "type": "Project",
     "category": "Full Stack",
     "name": "Quiz Web App",
@@ -264,7 +264,7 @@
   {
     "id": 13,
     "slug": "gallery-13",
-    "image": "/images/port-img11.png",
+    "image": "/images/port-img15.png",
     "type": "Project",
     "category": "Full Stack",
     "name": "Dashboard Internal",
@@ -305,7 +305,7 @@
   {
     "id": 14,
     "slug": "gallery-14",
-    "image": "/images/port-img12.png",
+    "image": "/images/port-img16.png",
     "type": "Project",
     "category": "Full Stack",
     "name": "Dashboard Integrasi Jubelio Accurate",
