@@ -113,7 +113,7 @@ const DynamicHeader = () => {
                 </div>
               </div>
               <a
-                href="https://okkyst-gallery.vercel.app/"
+                href="https://okkyst.vercel.app/"
                 className={`nav-link d-flex ${styles.togg}`}
               >
                 <img

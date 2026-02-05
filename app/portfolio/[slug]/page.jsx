@@ -128,6 +128,7 @@ export default function DetailPage() {
             >
               {item.env}
             </span>
+            <div className={`mb-4 mt-5 ${styles.description}`}>{item.description}</div>
             <div
               className={`row mx-0 mt-4 d-flex align-items-center ${styles.wrapTech}`}
             >

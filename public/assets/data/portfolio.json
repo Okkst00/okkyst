@@ -13,6 +13,7 @@
         "name": "Figma"
       }
     ],
+    "description":"-",
     "env": "Development"
   },
   {
@@ -29,6 +30,7 @@
         "name": "Figma"
       }
     ],
+    "description":"-",
     "env": "Development"
   },
   {
@@ -45,6 +47,7 @@
         "name": "Figma"
       }
     ],
+    "description":"-",
     "env": "Development"
   },
   {
@@ -61,6 +64,7 @@
         "name": "Figma"
       }
     ],
+    "description":"-",
     "env": "Development"
   },
   {
@@ -77,6 +81,7 @@
         "name": "Figma"
       }
     ],
+    "description":"-",
     "env": "Development"
   },
   {
@@ -103,6 +108,7 @@
         "name": "Mysql"
       }
     ],
+    "description":"-",
     "env": "End"
   },
   {
@@ -124,6 +130,7 @@
         "name": "Bootstrap"
       }
     ],
+    "description":"-",
     "env": "Development"
   },
   {
@@ -145,6 +152,7 @@
         "name": "Node.js"
       }
     ],
+    "description":"-",
     "env": "Live"
   },
   {
@@ -166,6 +174,7 @@
         "name": "Bootstrap"
       }
     ],
+    "description":"-",
     "env": "Development"
   },
   {
@@ -207,6 +216,7 @@
         "name": "Vercel"
       }
     ],
+    "description":"Website Untuk Menampilkan List Pareto Data Product Offline Store",
     "env": "Live"
   },
   {
@@ -238,6 +248,7 @@
         "name": "Docker"
       }
     ],
+    "description":"Website Quiz Untuk Mengakomodir Keperluan Divisi Human Capital",
     "env": "Live"
   },
   {
@@ -259,6 +270,7 @@
         "name": "WOO"
       }
     ],
+    "description":"Website Toko Online Yang Sudah Terintegrasi ke Omnichannel",
     "env": "Live"
   },
   {
@@ -298,8 +310,14 @@
         "id": 6,
         "image": "/images/vercel-icon.png",
         "name": "Vercel"
+      },
+      {
+        "id": 7,
+        "image": "/images/mongo-icon.png",
+        "name": "MongoDB"
       }
     ],
+    "description":"Dashboard Internal Perusahaan, Yang Berisi Analisa Customer dan Analisa Kebutuhan Pendukung Lainnya",
     "env": "Live"
   },
   {
@@ -341,6 +359,7 @@
         "name": "Vercel"
       }
     ],
+    "description":"Dashboard Untuk Integrasi Antara Jubelio dan Accurate Online, yang memiliki beberapa fitur yang membantu, seperti monitoring, bulk insert & hapus",
     "env": "Live"
   }
 ]

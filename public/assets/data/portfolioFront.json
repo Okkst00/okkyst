@@ -57,6 +57,11 @@
         "id": 6,
         "image": "/images/vercel-icon.png",
         "name": "Vercel"
+      },
+      {
+        "id": 7,
+        "image": "/images/mongo-icon.png",
+        "name": "MongoDB"
       }
     ],
     "env": "Live"

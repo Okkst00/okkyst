@@ -107,7 +107,7 @@ function Portfolio() {
                       <div className="row">
                         {item.technology.map((tech) => (
                           <div
-                            className="col col-lg-2 col-md-2 col-2 pe-0"
+                            className="col col-lg-2 col-md-2 col-2 pe-0 mb-2"
                             key={item.technology.id}
                           >
                             <Image

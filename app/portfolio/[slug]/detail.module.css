@@ -177,6 +177,11 @@
   font-weight: 600;
 }
 
+.description {
+  color: #ffffff;
+  font-size: 19px;
+}
+
 .type {
   background: -webkit-linear-gradient(
     left,
