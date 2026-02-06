@@ -23,7 +23,7 @@
   {
     "id": 13,
     "slug": "gallery-13",
-    "image": "/images/port-img15.png",
+    "image": "/images/icon_inter.png",
     "type": "Project",
     "category": "Full Stack",
     "name": "Dashboard Internal",
@@ -69,7 +69,7 @@
   {
     "id": 14,
     "slug": "gallery-14",
-    "image": "/images/port-img16.png",
+    "image": "/images/icon_port_jubeacc.png",
     "type": "Project",
     "category": "Full Stack",
     "name": "Dashboard Integrasi Jubelio Accurate",
